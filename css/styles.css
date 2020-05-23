@@ -1,0 +1,188 @@
+body,
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-top: 6%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Background Color */
+#title,
+#cta {
+  background-color: #efa8e4;
+}
+
+#testimonials,
+#press,
+.card {
+  background-color: #97e5ef;
+}
+
+#features,
+#footer {
+  background-color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 2rem;
+  color: rgb(27, 27, 47, 0.5);
+}
+
+.navbar-brand {
+  font-family: "Titan One", cursive;
+  font-size: 1.7rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#title {
+  color: #1b1b2f;
+}
+
+/* Header Section */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.subtitle {
+  margin-top: 5% 0 0 0;
+  font-size: 1.2rem;
+}
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  padding: 3% 0;
+  position: absolute;
+  right: 30%;
+}
+
+/* Download Button */
+.download-button {
+  margin: 2% 0 2% 0;
+  width: 15%;
+}
+
+/* Features Section */
+#features {
+  padding: 2% 15%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-box p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #97e5ef;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #efa8e4;
+}
+
+/* Testimonial Section */
+.testimonial-image {
+  width: 20%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 5% 14%;
+}
+
+.pricing-column {
+  padding: 2%;
+}
+
+/* Call to action Area */
+#cta {
+  padding: 5% 0 2% 0;
+}
+
+/* Footer Area */
+#footer {
+  margin-bottom: 0;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.social-media {
+  margin: 0 10px 5px 10px;
+}
+
+#footer p {
+  font-size: 0.7rem;
+  color: #8f8f8f;
+  margin-top: 5px;
+}
+
+/* responsive design */
+@media (max-width: 991px) {
+  .iphone {
+    position: static;
+    transform: none;
+    width: 170px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 700px) {
+  #cta {
+    padding: 5% 5% 2% 5%;
+  }
+}
